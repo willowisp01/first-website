@@ -1,6 +1,7 @@
+/* Global styles here */
+
 * {
     font-family: "Roboto", sans-serif;
-    /* background-color: peachpuff; */
 }
 
 body {
@@ -13,12 +14,10 @@ a {
     color:#e5e7eb;
 }
 
-.header,
-.footer {
-    background-color: #1f2937;
-}
+/* Header styles */
 
 .header {
+    background-color: #1f2937;
     padding-top: 0px;
     padding-left: 10%;
     padding-right: 10%;
@@ -30,7 +29,7 @@ a {
     margin-bottom: 50px;
 }
 
-.header h1{
+.header h1 {
     font-size: 24px; 
     color: #f9faf8;
     margin-right: auto;
@@ -51,6 +50,15 @@ a {
     color: #e5e7eb;
 }
 
+.header button {
+    border: 0px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
 #hero-text { 
     margin: 0px;
     font-size: 48px;
@@ -58,22 +66,14 @@ a {
     color: #f9faf8;
 }
 
-button, 
-.cta {
-    background-color: #3882f6;
-}
-
 .intro { 
     display: flex;
     gap: 40px;
 }
 
-.intro button {
-    border: 0px;
-    border-radius: 5px;
-    color: #e5e7eb;
-    padding: 5px 20px;
-    font-weight: 600;
+.description {
+    margin: 0px;
+    flex: 1;
 }
 
 .intro img {
@@ -81,10 +81,7 @@ button,
     flex: 1;
 }
 
-.description {
-    margin: 0px;
-    flex: 1;
-}
+/* Info Styles (the white section with images) */
 
 .info {
     margin: 5% 10%;
@@ -115,6 +112,8 @@ button,
     border-radius: 10px;
 }
 
+/* Testimonial Styles */
+
 .testimonial {
     background-color: #e5e7eb;
     padding: 5% 10%;
@@ -134,13 +133,21 @@ button,
     font-size: 24px;
 }
 
+/* Call-to-action styles */
+
 .cta { 
     margin: 5% 3%;
     padding: 50px 100px;
     border-radius: 10px;
     color: #e5e7eb;
+    background-color: #3882f6;
     display: flex;
     justify-content: space-between;
+}
+
+.cta .button-box {
+    display: flex;
+    align-items: center;
 }
 
 .cta h2 {
@@ -161,12 +168,11 @@ button,
     font-weight: 900;
 }
 
-.cta .button-box {
-    display: flex;
-    align-items: center;
-}
+
+/* Footer styles */
 
 .footer {
+    background-color: #1f2937;
     padding: 20px;
     display: flex;
     justify-content: center;
