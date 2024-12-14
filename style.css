@@ -1,0 +1,63 @@
+* {
+    font-family: "Roboto", sans-serif;
+    /* background-color: peachpuff; */
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header h1{
+    font-size: 24px; 
+    color: #f9faf8;
+}
+
+.header p,
+.header ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#hero-text { 
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button, 
+.cta {
+    background-color: #3882f6;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.testimonial p { 
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    color: #e5e7eb;
+}
